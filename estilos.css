@@ -52,12 +52,9 @@ justify-content: center;
     background-color:rgb(255, 255, 255);
     margin: 0px;
 }
-.row{
-    margin-left: 20px;
-    
-    }
+
 .card{
-    justify-content: center;
+    
     margin:20px;
       
 
@@ -87,4 +84,5 @@ margin:0px;
   display: flex;
   justify-content: center;
 }
+
 
