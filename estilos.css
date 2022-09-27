@@ -47,8 +47,13 @@ margin-top: 40px;
 
 
 }
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .card{
-    margin:20px;
+    margin: 2px;
     
 }
 
@@ -66,7 +71,8 @@ margin:0px;
     height: 20px;
 }
 .footer{
-background-color:rgb(57, 26, 5);
+background-color:rgb(234, 230, 228);
+margin-top: 129px;
 }
 
 .parraf{
