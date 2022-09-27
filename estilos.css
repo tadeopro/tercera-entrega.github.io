@@ -79,5 +79,12 @@ margin-top: 129px;
   justify-content: center;
   margin-left: 20px;
 }
+.table{
+ margin-top: 80px;
+  color: rgb(84, 108, 129);
+  background-color:white ;
+  border-radius: 10px;
+  
+}
 
 
