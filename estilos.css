@@ -40,13 +40,18 @@ justify-content: center;
     background-color:rgb(255, 255, 255);
     margin: 0px;
 }
+.tarjetas {
+flex-direction: column;
+justify-content: center;
+margin-top: 40px;
 
-.card{
-    
-    margin:20px;
-      
 
 }
+.card{
+    margin:20px;
+    
+}
+
 .card-body{
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 background-color:aliceblue;
@@ -54,20 +59,16 @@ text-align: center;
 margin:0px;
 
 }
-.footer{
-    margin-top: 100px;
-    background-color: white;
-}
+
+
 .fotos{
     width: 20px;
     height: 20px;
 }
-
 .footer{
-    margin-top: 20px;
-    background-color: rgb(62, 46, 34);
-    
+background-color:rgb(57, 26, 5);
 }
+
 .parraf{
   display: flex;
   justify-content: center;
