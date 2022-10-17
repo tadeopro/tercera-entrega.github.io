@@ -1,0 +1,19 @@
+{
+  "name": "2da-pre-entrega",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tadeopro/2da-pre-entrega.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tadeopro/2da-pre-entrega/issues"
+  },
+  "homepage": "https://github.com/tadeopro/2da-pre-entrega#readme"
+}

@@ -1,0 +1,37 @@
+$color-principal : rgb(247, 247, 252);
+$color-fondo:rgb(8, 7, 7);
+$tarjeta: flex;
+$color-unico:red;
+$margen : 30px;
+
+
+
+
+
+
+#carouselExampleControls{
+margin-top:$margen ;
+}
+
+h1{
+    display: flex;
+    color: $color-unico ;
+    align-items: center;
+    justify-content: center;
+    margin: 10px
+}
+h5{
+    display: flex;
+    justify-content: center;
+    color:$color-principal ;
+    background-color: $color-fondo;
+    border-radius: 5px;
+
+}
+.row{
+    display: $tarjeta;
+    justify-content: center;
+    align-items: center;
+    margin: $margen
+    
+}
