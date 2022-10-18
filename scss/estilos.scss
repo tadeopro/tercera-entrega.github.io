@@ -1,7 +1,7 @@
 $color-principal : rgb(247, 247, 252);
-$color-fondo:rgb(8, 7, 7);
+$color-fondo:rgb(16, 13, 13);
 $tarjeta: flex;
-$color-unico:red;
+$color-unico:rgb(3, 35, 22);
 $margen : 30px;
 
 
@@ -18,7 +18,9 @@ h1{
     color: $color-unico ;
     align-items: center;
     justify-content: center;
-    margin: 10px
+    border-top: 4px;
+    
+  
 }
 h5{
     display: flex;
@@ -32,6 +34,11 @@ h5{
     display: $tarjeta;
     justify-content: center;
     align-items: center;
-    margin: $margen
-    
+}
+.card{
+    margin: $margen;
+   
+}
+.table{
+    border-radius: $color-fondo;
 }
