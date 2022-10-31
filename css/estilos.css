@@ -1,19 +1,25 @@
+
 #carouselExampleControls {
   margin-top: 30px;
+}
+nav a:hover{
+
+border-radius: 10px;
+  background-color: rgb(204, 128, 235);
 }
 
 h1 {
   display: flex;
-  color: rgb(3, 35, 22);
+  color: rgb(0, 0, 0);
   align-items: center;
   justify-content: center;
-  border-top: 4px;
+
 }
 
 h5 {
   display: flex;
   justify-content: center;
-  color: rgb(247, 247, 252);
+  color: rgb(255, 255, 255);
   background-color: rgb(16, 13, 13);
   border-radius: 5px;
 }
@@ -22,10 +28,14 @@ h5 {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .card {
-  margin: 30px;
+  margin: 50px;
+  
+
+
 }
 .tracking-in-expand {
 	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
@@ -44,6 +54,58 @@ h5 {
     opacity: 1;
   }
 }
+.Productos{
+  margin: 50px;
+  margin-right: 920px;
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+border-radius: 40px;
+}
+.tracking-in-expand-fwd{animation:tracking-in-expand-fwd .8s cubic-bezier(.215,.61,.355,1.000) both}
 
 
-/*# sourceMappingURL=estilos.css.map */
+ @keyframes tracking-in-expand-fwd{0%{letter-spacing:-.5em;transform:translateZ(-700px);opacity:0}40%{opacity:.6}100%{transform:translateZ(0);opacity:1}}
+ 
+ .parraf{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 100px;
+  margin: 80px;
+  background-color: rgb(7, 7, 9);
+  border-radius: 7px;
+  color: aliceblue;
+ }
+ .informacion{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  font-size: 2em;
+font-family: Arial, Helvetica, sans-serif;
+}
+ .tracking-in-contract-bck-bottom {
+	-webkit-animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+ 
+
+@keyframes tracking-in-contract-bck-bottom {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px) translateY(300px);
+            transform: translateZ(400px) translateY(300px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+
+
+
+ 
