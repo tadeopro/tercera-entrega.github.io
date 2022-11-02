@@ -1,7 +1,4 @@
 
-#carouselExampleControls {
-  margin-top: 30px;
-}
 nav a:hover{
 
 border-radius: 10px;
@@ -28,13 +25,15 @@ h5 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 100px;
+  padding: 80px;
   
 }
 
 .card {
-  margin: 50px;
-  
-
+  margin: 60px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-top: 100px;
 
 }
 .tracking-in-expand {
@@ -66,14 +65,6 @@ border-radius: 40px;
 
  @keyframes tracking-in-expand-fwd{0%{letter-spacing:-.5em;transform:translateZ(-700px);opacity:0}40%{opacity:.6}100%{transform:translateZ(0);opacity:1}}
  
- .parraf{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  margin-top: 100px;
-  margin: 80px;
-  background-color: rgb(7, 7, 9);
-  border-radius: 7px;
-  color: aliceblue;
- }
  .informacion{
   display: flex;
   justify-content: space-between;
@@ -105,7 +96,57 @@ font-family: Arial, Helvetica, sans-serif;
     opacity: 1;
   }
 }
-
-
-
+.marca{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  
+}
+.formulario{
+  margin-right: 40px;
+}
+.socio{
+  margin-top: 100px;
+}
+.card-img-top{
+  border-radius: 8px;
+}
+.form-register{
+  width: 400px;
+  background-color: rgb(86, 86, 86);
+  padding: 30px;
+  margin-top: 200px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+box-shadow: 8px 20px 34px rgb(102, 26, 82);
+  border-radius: 20px;
+  }
+  .controls{
+    width: 100%;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 10, 10);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  .form-register a{
+    text-decoration: underline;
+  }
+  .form-register .botons{
+    width: 100%;
+    background-color: rgb(248, 248, 248);
+    border: none;
+    padding: 12px;
+    margin: 16px 0;
+  }
+  .texto-informativo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(116, 116, 116);
+    border-radius: 8px;
+    box-shadow: 10px 10px 18px #000;
+  }
  
